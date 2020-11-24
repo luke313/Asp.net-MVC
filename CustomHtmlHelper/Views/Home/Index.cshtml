@@ -1,0 +1,9 @@
+﻿@using CustomHtmlHelper.Library
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@*@Html.Button(type:CustomExtensions.ButtonType.button) // diğerleri default parametre*@ 
+@Html.ButtonWithTagBuilder(type:CustomExtensions.ButtonType.password)

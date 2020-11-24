@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<style>
+    .red {
+        color: red;
+    }
+</style>
+@Html.ActionLink("bu bir link örneğidir","Index","Main", new { param = "giderken bu parametre ile gidecek"}, new { @class="red"})

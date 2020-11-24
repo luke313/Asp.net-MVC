@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+@{
+
+    string[] names = new string[3] { "ali", "ahmet", "mehmet" };
+    int index = 0;
+    <ul>
+        @foreach (var item in names)
+        {
+            if (index % 2 == 0)
+             {
+                <li><b>@item</b></li>
+            }
+            else
+            {
+                <li>@item</li>
+            }
+            index++;
+        }
+
+</ul>
+
+}
+
+
