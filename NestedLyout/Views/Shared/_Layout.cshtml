@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.8.3.js"></script>
+    <style>
+        .block{
+            border:1px solid #000000;
+            margin:5px;
+            padding:5px;
+        }
+        .block2{
+            border:1px solid #ff0000;
+            display:inline;
+            height:100px;
+            margin:5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="block ">
+        header
+    </div>
+
+    <div class="block ">
+        @RenderBody()
+    </div>
+    <div class="block ">
+        footer
+    </div>
+</body>
+</html>

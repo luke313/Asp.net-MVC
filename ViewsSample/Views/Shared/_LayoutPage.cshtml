@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <style>
+        .block {
+            border: 1px solid #000;
+        }
+
+        #navbar ul li {
+            display: inline;
+            /*burdaki width ve heigth etki etmiyor*/
+            width: 100px;
+            height: 30px;
+            margin: 5px;
+            border-width: 30px;
+            border: 1px solid darkolivegreen;
+            text-align: center;
+            background-color: darkolivegreen;
+            padding: 1px;
+            border-radius: 3px;
+        }
+
+        #navbar ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #navbar li:hover {
+            background-color: cornflowerblue;
+        }
+
+        #navbar li:hover a {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="block" id="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="block">
+        @RenderBody()
+    </div>
+    <div class="block">
+        Tüm hakkı saklıdır &copy;burcu sağlam
+    </div>
+</body>
+</html>

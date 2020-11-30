@@ -1,0 +1,41 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <style>
+        .header {
+            border: 1px solid #000000;
+            margin: 3px;
+            height: 120px;
+        }
+
+        .body {
+            border: 1px solid #000000;
+            margin: 3px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        @Html.Partial("_PartialLinkler")
+    </div>
+    <div class="body">
+        <p>Nisl ac ipsum gravida vel pretium tellus tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc.</p>
+        <p>Mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel placerat suscipit, orci nisl iaculis eros, a tincidunt nisi.</p>
+        <p>Odio eget lorem nulla condimentum tempor mattis ut vitae feugiat augue cras ut metus a risus iaculis scelerisque eu ac ante fusce non.</p>
+        <p>Varius purus aenean nec magna felis fusce vestibulum velit mollis odio sollicitudin lacinia aliquam posuere, sapien elementum lobortis tincidunt, turpis dui ornare nisl.</p>
+        <p>Sollicitudin interdum turpis nunc eget sem nulla eu ultricies orci praesent id augue nec lorem pretium congue sit amet ac nunc fusce iaculis.</p>
+    </div>
+    <div class="header">
+        @Html.Partial("_PartialLinkler")
+    </div>
+</body>
+</html>

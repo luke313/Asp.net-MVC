@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <style>
+        .header{
+            border:1px solid #000000;
+            margin:3px;
+            height:100px;
+        }
+        .body {
+            border: 1px solid #000000;
+            margin: 3px;
+            height: 900px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <li>@RenderSection("Links",false)</li>
+            <li>
+                <a href="#">Dolor sit.</a>
+            </li>
+            <li>
+                <a href="#">Amet, consectetur.</a>
+            </li>
+            <li>
+                <a href="#">Adipiscing elit.</a>
+            </li>
+        </ul>
+    </div>
+    <div class="body">
+        @RenderBody()
+    </div>
+</body>
+</html>

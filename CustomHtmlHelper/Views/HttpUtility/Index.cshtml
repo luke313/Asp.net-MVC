@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@HttpUtility.HtmlEncode("<p>bburcu sağlam</p>")
+<br />
+
+<!--bunu string olarak agılar, html çıktı üretmez-->
+@HttpUtility.HtmlDecode("&lt;p&gt;bburcu sağlam&lt;/p&gt;") 
+
+
+
+
+<!--Html olarak görmesi için-->
+@Html.Raw("<p>burcu sağlam</p>")

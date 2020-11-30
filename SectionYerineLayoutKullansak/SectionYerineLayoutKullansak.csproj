@@ -7,16 +7,16 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{25359E70-3E8C-4649-92A3-E13DB5749C14}</ProjectGuid>
+    <ProjectGuid>{846C956F-9D90-44BC-A58D-98B1CC257E15}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CustomHtmlHelper</RootNamespace>
-    <AssemblyName>CustomHtmlHelper</AssemblyName>
+    <RootNamespace>SectionYerineLayoutKullansak</RootNamespace>
+    <AssemblyName>SectionYerineLayoutKullansak</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44348</IISExpressSSLPort>
+    <IISExpressSSLPort>44354</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -94,13 +94,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\DenemeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\HttpUtilityController.cs" />
-    <Compile Include="Controllers\UrlHelperController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Library\CustomExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -108,9 +106,14 @@
     <None Include="packages.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Shared\_NestedLayout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\UrlHelper\Index.cshtml" />
-    <Content Include="Views\HttpUtility\Index.cshtml" />
+    <Content Include="Views\Shared\_Layout1.cshtml" />
+    <Content Include="Views\Shared\_Layout2.cshtml" />
+    <Content Include="Views\Shared\_Layout2_lisiz.cshtml" />
+    <Content Include="Views\Deneme\LiLiLayout2Kullanacak.cshtml" />
+    <Content Include="Views\Deneme\LiSizLayout2Kullanacak.cshtml" />
+    <Content Include="Views\Deneme\İndex.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -135,9 +138,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>50783</DevelopmentServerPort>
+          <DevelopmentServerPort>55915</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44348/</IISUrl>
+          <IISUrl>https://localhost:44354/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
