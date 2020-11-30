@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+@using (Html.BeginForm())
+{
+    <div class="form-group">
+        @Html.Label("isim", new { @for = "exampleInputEmail1" })
+
+        @Html.TextBox("name", null, new { @class = "form-control", @id = "exampleInputEmail1" })
+
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+}
+
+
