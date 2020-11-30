@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialViewSample", "Partia
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialViewWithLayout", "PartialViewWithLayout\PartialViewWithLayout.csproj", "{F7C98625-D6EA-4FFE-BB43-A6386C3F7341}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26-ViewBag-ViewData-TempData", "26-ViewBag-ViewData-TempData\26-ViewBag-ViewData-TempData.csproj", "{97D524C5-5115-4F5B-9833-CC134ACB6427}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{F7C98625-D6EA-4FFE-BB43-A6386C3F7341}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7C98625-D6EA-4FFE-BB43-A6386C3F7341}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7C98625-D6EA-4FFE-BB43-A6386C3F7341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D524C5-5115-4F5B-9833-CC134ACB6427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D524C5-5115-4F5B-9833-CC134ACB6427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D524C5-5115-4F5B-9833-CC134ACB6427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D524C5-5115-4F5B-9833-CC134ACB6427}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
