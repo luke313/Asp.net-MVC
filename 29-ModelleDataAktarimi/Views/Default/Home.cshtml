@@ -1,0 +1,30 @@
+﻿@using _29_ModelleDataAktarimi.ViewModels
+@model HomeViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Home</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm())
+        {
+            <div class="form-group">
+                @Html.Label("ad", new { @for = "exampleInputEmail1" })
+                @Html.TextBoxFor(model => model.KisiNesnesi.Ad, new { @class = "form-control", @id = "exampleInputEmail1" })
+
+                @Html.Label("adres", new { @for = "exampleInputEmail2" })
+                @Html.TextBoxFor(model => model.AdresNesnesi.Adress, new { @class = "form-control", @id = "exampleInputEmail1" })
+
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        }
+    </div>
+</body>
+</html>
