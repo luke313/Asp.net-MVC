@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26-ViewBag-ViewData-TempDat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "28-ViewDenControlleraVeriGönderimi-", "28-ViewDenControlleraVeriGönderimi-\28-ViewDenControlleraVeriGönderimi-.csproj", "{4AF470E0-44DB-4C2B-9EEC-E330F936359E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29-ModelleDataAktarimi", "29-ModelleDataAktarimi\29-ModelleDataAktarimi.csproj", "{70FB37C2-A157-4266-8E44-1DA102E14027}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{4AF470E0-44DB-4C2B-9EEC-E330F936359E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AF470E0-44DB-4C2B-9EEC-E330F936359E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AF470E0-44DB-4C2B-9EEC-E330F936359E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70FB37C2-A157-4266-8E44-1DA102E14027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70FB37C2-A157-4266-8E44-1DA102E14027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70FB37C2-A157-4266-8E44-1DA102E14027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70FB37C2-A157-4266-8E44-1DA102E14027}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
