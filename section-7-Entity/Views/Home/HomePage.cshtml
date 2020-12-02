@@ -1,0 +1,53 @@
+﻿@model section_7_Entity.ViewModels.HomePageViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>HomePage</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <style>
+        .green {
+            color:green;
+            margin:05px;
+        }
+        .red {
+            color: red;
+            margin: 05px;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-6">
+            <h1>Kullanıcılar</h1>
+            <ul class="list-group">
+                @foreach (var item in Model.Users)
+                {
+                <li class="list-group-item" id=@item.Id>
+                    <span class="glyphicon glyphicon-user red"></span>@(item.Name+""+item.Surname)
+                </li>
+                }
+            </ul>
+        </div>
+
+        <div class="col-md-6">
+            <h1>Adresler</h1>
+            <ul class="list-group">
+                @foreach (var item in Model.Addresses)
+                {
+                    <li class="list-group-item" id=@item.Id>
+                        <span class="glyphicon glyphicon-home green"></span>@(item.AddressDesc+" ("+item.User.Name+")")
+                    </li>
+                }
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>
