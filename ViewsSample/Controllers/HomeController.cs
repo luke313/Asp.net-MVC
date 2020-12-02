@@ -11,6 +11,7 @@ namespace ViewsSample.Controllers
         // GET: Home
         public ActionResult Home()
         {
+            //comment
             return View();
         }
 
